@@ -2,6 +2,7 @@
 
 ****Webpack****: là static module để gói các ứng dụng JavaScript . Nó nhận vào các module cùng với các dependencies và generate ra các static assets tương ứng. 
 Nói chung thì nó dùng để quản lý các asset(js, css, image, font, vv) trong dự án của bạn.
+
 ![](https://images.viblo.asia/a8dcfe82-0c02-4c98-a305-0f9110e65f50.png)
 
 **5 Concepts cơ bản trong webpack:**
