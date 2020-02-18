@@ -303,7 +303,7 @@ Giờ bạn chạy `yarn start` để chạy với môi trường development
 Nếu bạn cần build cho product để sử dụng thì `yarn build`
  
 Đến đây, mình xin kết thúc bài viết tại đây. Nếu bạn làm bị lỗi hoặc lạc hướng thì có thể xem source: 
-    [](https://github.com/quoctrung163/react-app-webpack)
+    [link](https://github.com/quoctrung163/react-app-webpack)
 
 Đây là bài viết đầu tiên của mình nên có nhiều sai sót mong các bác thông cảm :D 
 
