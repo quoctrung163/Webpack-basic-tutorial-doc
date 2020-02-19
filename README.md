@@ -197,7 +197,7 @@ module.exports = {
 const webpack = require('webpack');
 const merge = require('webpack-merge');
 const common = require('./webpack.common');
-const HtmlWebpackPluin = require('html-webpack-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 // nó ghép với file webpack`webpack.common.js` đã cấu hình cơ bản để sử dụng.
 module.exports = merge(common, {
@@ -229,7 +229,7 @@ module.exports = merge(common, {
     plugins: [
         // HotModuleReplacementPlugin: nó giúp tạo ra server riêng tự động reload khi có bất kỳ thay đổi nào từ các file hệ client của project/
         new webpack.HotModuleReplacementPlugin(),
-        new HtmlWebpackPluin({
+        new HtmlWebpackPlugin({
             title: 'Webpack React Example',
             inject: false,
             template: require('html-webpack-template'),
@@ -254,7 +254,7 @@ const {
     CleanWebpackPlugin
 } = require('clean-webpack-plugin');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
-const HtmlWebpackPluin = require('html-webpack-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = merge(common, {
     mode: 'production',
@@ -278,7 +278,7 @@ module.exports = merge(common, {
         new MiniCssExtractPlugin({
             filename: "css/index.css"
         }),
-        new HtmlWebpackPluin({
+        new HtmlWebpackPlugin({
             title: 'Webpack React Example',
             inject: false,
             template: require('html-webpack-template'),
