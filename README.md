@@ -150,14 +150,15 @@ const root = document.getElementById('root');
 ReactDOM.render(<App/>, root);
 ```
     
- `src/sass/index.sass`
+ `src/sass/index.scss`
 ```
 body {
-    padding: 0,
+    padding: 0;
+    margin: 0;
     font: {
-        family: sans-serif;
-        size: 1.5em;
-        weight: 500
+        size: 3rem;
+        weight: 1000;
+        color: red;
     }
 }
 ```
@@ -214,7 +215,7 @@ module.exports = merge(common, {
     module: {
         // các file scss được loader bởi style-loader, css-loader, sass-loader
         rules: [{
-            test: /\.scss$/,
+            test: /\.(scss|sass)$/,
             use: [{
                 loader: 'style-loader',
             }, {
