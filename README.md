@@ -155,7 +155,9 @@ ReactDOM.render(<App/>, root);
 body {
     padding: 0,
     font: {
-        
+        family: sans-serif;
+        size: 1.5em;
+        weight: 500
     }
 }
 ```
@@ -306,13 +308,4 @@ Nếu bạn cần build cho product để sử dụng thì `yarn build`
 Đến đây, mình xin kết thúc bài viết tại đây. Nếu bạn làm bị lỗi hoặc lạc hướng thì có thể xem source: 
     [link](https://github.com/quoctrung163/react-app-webpack)
 
-Đây là bài viết đầu tiên của mình nên có nhiều sai sót mong các bác thông cảm :D 
-
-
-    
-
-    
-    
-    
-    
-    
+Đây là bài viết đầu tiên của mình nên có nhiều sai sót mong các bác thông cảm :D
