@@ -122,7 +122,7 @@ Và thêm vào như sau :
 
 Tiếp theo bạn hãy cài tất cả các module còn lại dùng để chỉnh cấu hình webpack
 ```
-yarn add css-loader sass-loader style-loader clean-webpack-plugin html-webpack-plugin html-webpack-template webpack-dev-server webpack-merge --dev
+yarn add css-loader sass-loader style-loader clean-webpack-plugin html-webpack-plugin html-webpack-template webpack-dev-server webpack-merge mini-css-extract-plugin --dev
 ```
 
 Mình sẽ giải thích sơ sơ về các module trên 
@@ -134,6 +134,7 @@ Mình sẽ giải thích sơ sơ về các module trên
 6. html-webpack-template: đây là một template tiện lợi cho thằng html-webpack-plugin
 7. webpack-dev-server: nó là module dùng để chạy trên môi trường development
 8. webpack-merge: dùng để ghép các file js với nhau.
+9. mini-css-extract-plugin: nó sẽ thu gọn file css lại cho môi trường product.
 
 Sau khi cài đặt các module xong, mình sẽ tạo một vài file index.js và index.sass
 
