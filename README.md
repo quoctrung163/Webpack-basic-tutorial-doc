@@ -159,8 +159,8 @@ body {
     font: {
         size: 3rem;
         weight: 1000;
-        color: red;
-    }
+    };
+    color: red;
 }
 ```
     
@@ -262,7 +262,7 @@ module.exports = merge(common, {
     devtool: 'source-map',
     module: {
         rules: [{
-            test: /\.scss$/,
+            test: /\.(scss|sass)$/,
             use: [
                 MiniCssExtractPlugin.loader,
                 "css-loader",
